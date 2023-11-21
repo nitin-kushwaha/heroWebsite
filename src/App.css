@@ -1,0 +1,32 @@
+.App {
+  display: flex;
+
+}
+.containerbox{
+  display:inline-flex;
+  position: absolute;
+  right: 0;
+  top: 50px;
+  flex-direction: column;
+  background-color:#FAF6F0;
+  z-index:1;
+  box-sizing: border-box;
+  margin-top: auto;
+  padding: 5% 8%;
+  margin:auto 0;
+  border-radius: 5%;
+}
+label{
+  padding:5%;
+  margin: 5%;
+}
+input{
+  margin: auto;
+  padding: auto;
+}
+.button{
+  margin: 10%;
+  padding: 10%;
+  justify-content: center;
+  width: 50%;
+}
